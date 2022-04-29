@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+
+html.light{
+  background-color: hsl(0, 0%, 98%);
+  scroll-behavior: smooth;
+}
+html.dark{
+  background-color: hsl(207, 26%, 17%);
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Roboto Mono', monospace;
+}
