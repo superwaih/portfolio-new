@@ -9,6 +9,7 @@ import SideNav from '../Components/SideNav';
 
 
 
+
 export default function Home() {
   const {theme, setTheme} = useTheme();
   const[burger, setBurger] = useState(false)
@@ -25,7 +26,7 @@ export default function Home() {
       </Head>
 
       <Nav burger={burger} setBurger={setBurger} theme={theme} setTheme={setTheme} />
-     <SideNav burger={burger} />
+     <SideNav burger={burger}/>
       <About />
       <Projects />
       <Footer />
