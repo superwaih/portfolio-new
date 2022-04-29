@@ -14,9 +14,9 @@ const ProjectCard = ({project_image, projectname, projectsummary, stacks_used, l
         {projectsummary} 
       </p>
       <div className="stack grid grid-cols-2 gap-4 font-semibold justify-between">
-          {stacks_used.map((stack) =>{
+          {stacks_used.map((stack, i) =>{
               return(
-                <span className='bg-[#ccc] text-[#282c34] font-[13px] rounded p-2'>{stack}</span>
+                <span key={i} className='bg-[#ccc] text-[#282c34] font-[13px] rounded p-2'>{stack}</span>
               )
           })}
       </div>
