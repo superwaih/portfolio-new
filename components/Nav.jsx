@@ -13,7 +13,7 @@ export default function Nav({theme, setTheme, burger, setBurger}) {
      <nav className='shadow relative text-xl flex m-auto justify-between p-6'>
     
     <div className="logo w-1/4">
-        <a href="/">Shittu Adewale</a>
+        <a>Shittu Adewale</a>
     </div>
   
     <div className="navlinks w-2/4 flex hidden lg:block">
