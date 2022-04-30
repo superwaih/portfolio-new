@@ -5,7 +5,7 @@ import About from '../components/About';
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
 import Projects from '../components/Projects';
-import SideNav from '../Components/SideNav';
+import SideNav from '../components/SideNav';
 
 
 
