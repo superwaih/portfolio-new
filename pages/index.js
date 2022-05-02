@@ -26,7 +26,7 @@ export default function Home() {
       </Head>
 
       <Nav burger={burger} setBurger={setBurger} theme={theme} setTheme={setTheme} />
-     <SideNav burger={burger}/>
+     <SideNav burger={burger} setBurger={setBurger}/>
       <About />
       <Projects />
       <Footer />

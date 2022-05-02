@@ -13,14 +13,14 @@ const ProjectCard = ({project_image, projectname, projectsummary, stacks_used, l
       <p className='project-summary leading-6'>
         {projectsummary} 
       </p>
-      <div className="stack grid grid-cols-2 gap-4 font-semibold justify-between">
+      <div className="stack grid grid-cols-2 gap-4 font-[12px]  justify-between">
           {stacks_used.map((stack, i) =>{
               return(
-                <span key={i} className='bg-[#ccc] text-[#282c34] font-[13px] rounded p-2'>{stack}</span>
+                <span key={i} className='bg-[#ccc] text-[#282c34]  rounded p-2'>{stack}</span>
               )
           })}
       </div>
-      <div className="button flex font-bold text-gray-300 justify-between">
+      <div className="button flex font-bold justify-between">
         <a href={live_url}>Live Site</a>
         <a href={repo_url}>Source code </a>
       </div>
