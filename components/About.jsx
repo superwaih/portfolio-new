@@ -7,9 +7,9 @@ const About = () => {
   return (
     <div id='about' className='p-8 flex flex-col lg:flex-row'>
       <div className="about-text w-full lg-w-1/2 space-y-5 p-4">
-        <h2 className='text-4xl font-bold w-full' >Hello, {`I'm`} Shittu Adewale</h2>
+        <h2 className='text-4xl font-bold w-full' >Hello, I&apos;m Shittu Adewale</h2>
         <p className='leading-8 whitespace-normal text-left' >
-        {`I'm`} a frontend-developer with some experience in web3 development. In solving problems, my strategy is to break difficulties down into manageable chunks and then continue the process until the problem is solved. When I'm not slapping my keyboards till something magical happens, I binge watch comedy sitcoms and solve crimes lol.
+        I&apos;m a frontend-developer with some experience in web3 development. In solving problems, my strategy is to break difficulties down into manageable chunks and then continue the process until the problem is solved. When I&apos;m not slapping my keyboards till something magical happens, I binge watch comedy sitcoms and solve crimes lol.
 
         </p>
 
@@ -19,7 +19,7 @@ const About = () => {
       </div>
 
       <div className='tech-stacks w-full lg-w-1/2 p-4'>
-        <h3 className='py-2 px-2 font-bold text-xl' >Technologies {`I've`} worked with and work with...</h3>
+        <h3 className='py-2 px-2 font-bold text-xl' >Technologies I&apos;ve worked with and work with...</h3>
       <div className="grid grid-cols-3 gap-8  ">
       <SiCss3 size={32} />
       <SiEthereum size={32} />
