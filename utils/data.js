@@ -11,7 +11,7 @@ export const projectsAll = [
 {
     id: 2,
     name: 'Travel Agency Website',
-    project_summary: 'A travel agency website where tourist can visit and see pictures of different locations they can visit',
+    project_summary: 'A website for a travel business where tourists can look at photographs of different places they can visit. ',
     project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1651163293/travel-website_l9oonr.png',
     stacks_used: ['ReactJS', 'Vercel', 'TailwindCss'],
     repo_url: 'https://github.com/superwaih/Travel-website',
@@ -38,7 +38,7 @@ export const projectsAll = [
 {
     id: 5,
     name: 'Whitelist Dapp',
-    project_summary: 'An online tips calculator to calculate tips based on percentage and number of people',
+    project_summary: 'A Dapp for getting users whitelisted',
     project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1651163806/whitelist_yzmdtv.png',
     stacks_used: ['ReactJS', 'Vercel', 'ethers.js', 'Web3Modal'],
     repo_url: 'https://github.com/superwaih/whitelist-dapp',
@@ -47,7 +47,7 @@ export const projectsAll = [
 {
     id: 6,
     name: 'NFT Minting Website',
-    project_summary: 'An minting website that generates NFTs out of my favorite words',
+    project_summary: 'An NFT minting website that generates NFTs out of my favorite words',
     project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1651165092/mintinh-site_v6bjkn.png',
     stacks_used: ['ReactJS', 'Vercel', 'Ethers.js', 'Hardhat'],
     repo_url: 'https://replit.com/@mimicwale/nft-starter-project#src/App.jsx',
@@ -65,7 +65,7 @@ export const projectsAll = [
 {
     id: 8,
     name: 'space tourism website',
-    project_summary: 'A frontendMentor challenge to for space tourism information.',
+    project_summary: 'A frontendMentor challenge for information about space tourism.',
     project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1651156632/space-website_ytef5e.png',
     stacks_used: ['HTML5', 'CSS3', 'Vercel', 'Javascript'],
     repo_url: 'https://github.com/superwaih/space-tourism-website-main',

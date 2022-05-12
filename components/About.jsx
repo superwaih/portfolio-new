@@ -9,9 +9,8 @@ const About = () => {
       <div className="about-text w-full lg-w-1/2 space-y-5 p-4">
         <h2 className='text-4xl font-bold w-full' >Hello, I&apos;m Shittu Adewale</h2>
         <p className='leading-8 whitespace-normal text-left' >
-        I&apos;m a self-taught front-end developer, with special interest in web3 development I build website with a focus on simplicity, responsiveness, accessibility and pleasing aesthetics. As a solution oriented person, my approach is always focused on breaking down problems into small pieces and repeating the loop until the end.
+        I&apos;m a frontend-developer with some experience in web3 development. In solving problems, my strategy is to break difficulties down into manageable chunks and then continue the process until the problem is solved. When I'm not slapping my keyboards till something magical happens, I binge watch comedy sitcoms and solve crimes lol.
 
-      I also write articles to share knowledge about technologies i work with.
         </p>
 
         <button className='rounded shadow hover:bg-white hover:text-red-800  bg-cyan-300 text-amber-900 p-4 font-semibold' >Download Resume</button>
