@@ -66,7 +66,7 @@ export const projectsAll = [
     id: 8,
     name: 'space tourism website',
     project_summary: 'A frontendMentor challenge for information about space tourism.',
-    project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1651156632/space-website_ytef5e.png',
+    project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1651163723/space_ct11rn.png',
     stacks_used: ['HTML5', 'CSS3', 'Vercel', 'Javascript'],
     repo_url: 'https://github.com/superwaih/space-tourism-website-main',
     live_url: 'https://space-tourism-website-main-ten.vercel.app/index.html'
