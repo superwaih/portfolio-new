@@ -15,7 +15,7 @@ export const projectsAll = [
     project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1651163293/travel-website_l9oonr.png',
     stacks_used: ['ReactJS', 'Vercel', 'TailwindCss'],
     repo_url: 'https://github.com/superwaih/Travel-website',
-    live_url: 'https://dazzling-wilson-f696a4.netlify.app/'
+    live_url: 'https://nervous-mahavira-6051f4.netlify.app/'
 },
 {
     id: 3,
