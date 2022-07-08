@@ -7,8 +7,7 @@ import Nav from '../components/Nav';
 import Projects from '../components/Projects';
 import ScrollToTop from '../components/ScrollToTop';
 import SideNav from '../components/SideNav';
-
-
+import Head from 'next/head';
 
 
 export default function Home() {
@@ -20,7 +19,33 @@ export default function Home() {
     return null
   }
   return (
-    <div className='App'>
+    <>
+     <Head>
+      <meta
+        name="viewport"
+        content="minimum-scale=1, initial-scale=1, width=device-width viewport-fit=cover"
+      />
+      <meta name="author" content="Shittu Adewale" />
+      
+      <meta name="description" content="Official Portfolio for Shittu Adewale" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Wale" />
+      <meta property="og:description" content="Official Portfolio for Shittu Adewale, A student of the federal university of technology, akure, Self-taught full stack developer" />
+      <meta property="og:title" content="Frontend Developer" />
+      <meta name="twitter:creator" content="@adewaleszn" />
+      <meta name="twitter:site" content="@adewaleszn" />
+      <meta name="twitter:title" content="Official Portfolio for Shittu Adewale" />
+      <meta name="twitter:description" content="official twitter account for Shittu Adewale" />
+      <meta
+        property="og:url"
+        content={`wale.vercel.app`}
+      />
+     
+      <title>Shittu Adewale Portfolio</title>
+    </Head>
+
+    <main className='App'>
+      
       
       <Header />
       <ScrollToTop theme={theme} />
@@ -33,6 +58,9 @@ export default function Home() {
 
 
      
-    </div>
+    </main>
+    
+    </>
+  
   )
 }
