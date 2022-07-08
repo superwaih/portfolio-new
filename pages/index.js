@@ -1,14 +1,14 @@
 import { useTheme } from 'next-themes'
 import { useState, useEffect } from 'react';
-import About from '../components/About';
-import Footer from '../components/Footer';
-import Header from '../components/Head';
-import Nav from '../components/Nav';
-import Projects from '../components/Projects';
-import ScrollToTop from '../components/ScrollToTop';
-import SideNav from '../components/SideNav';
+import About from 'components/About';
+import Footer from 'components/Footer';
+import Header from 'components/Head';
+import Nav from 'components/Nav';
+import Projects from 'components/Projects';
+import ScrollToTop from 'components/ScrollToTop';
+import SideNav from 'components/SideNav';
 import Head from 'next/head';
-import { WorkExperience } from '../components/WorkExperience';
+import  WorkExperience  from 'components/WorkExperience';
 
 
 export default function Home() {
