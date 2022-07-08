@@ -16,10 +16,12 @@ export default function Nav({theme, setTheme, burger, setBurger}) {
         <a>Shittu Adewale</a>
     </div>
   
-    <div className="navlinks w-2/4 flex hidden lg:block">
+    <div className="navlinks w-2/4 md:flex hidden lg:block">
         <a className='p-4' href='#about' > About</a>
-        <a href='#projects' className='p-4'>Project</a>        
+        <a href='#projects' className='p-4'>Project</a>
+        <a href='#work-experience' className='p-4'>Experience</a>        
         <a href='#contact' className='p-4'>Contact Me</a>
+        
     </div>
 
     

@@ -8,6 +8,7 @@ import Projects from '../components/Projects';
 import ScrollToTop from '../components/ScrollToTop';
 import SideNav from '../components/SideNav';
 import Head from 'next/head';
+import { WorkExperience } from '../components/WorkExperience';
 
 
 export default function Home() {
@@ -44,17 +45,20 @@ export default function Home() {
       <title>Shittu Adewale Portfolio</title>
     </Head>
 
-    <main className='App'>
+    <main className='App max-w-8xl'>
       
       
       <Header />
       <ScrollToTop theme={theme} />
       <Nav burger={burger} setBurger={setBurger} theme={theme} setTheme={setTheme} />
      <SideNav burger={burger} setBurger={setBurger}/>
-      <About />
-      <Projects />
-      <Footer />
+      <div className='w-[96%] m-auto' >
+        <About />
+        <Projects />
+       <WorkExperience />
+       <Footer />
 
+      </div>
 
 
      

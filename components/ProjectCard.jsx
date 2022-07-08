@@ -6,13 +6,8 @@ const ProjectCard = ({project_image, projectname, projectsummary, stacks_used, l
   return (
     
     <div className="project-card justify-center  card items-center h-[39rem] lg:h-[35rem] w-full md:w-96    rounded transform hover:scale-105 duration-500 shadow dark:bg-DarkModeElement">
-    <div className="card-img card-img object-cover  w-full  h-2/5">
-      {/* <Image src={project_image} 
-        layout={"fill"}
-        objectFit={"cover"}
-
-      width={500}
-      height={500} /> */}
+    <div className="card-img card-img object-contain  w-full  h-2/5">
+     
       <img className='rounded-t-md w-full h-full object-cover' src={project_image} alt="project image" />
     </div>
     <div className="project-details p-3 md:p-8 space-y-4 ">
