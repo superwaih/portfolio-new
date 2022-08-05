@@ -16,7 +16,7 @@ const Footer = () => {
     <hr className="hr"/>
     <div className="right">
         <p>All rights reserved. (C) 2022</p>
-        <p>Designed and developed by <a className='link-dev' href="https://www.linkedin.com/in/walekang/">Shittu Adewale</a></p>
+        <p>Designed and developed by <a className='link-dev' href="https://www.linkedin.com/in/walekang/">Adewale Shittu</a></p>
     </div>
 </footer>
   )
