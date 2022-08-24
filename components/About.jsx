@@ -5,7 +5,12 @@ import { SiSolidity, SiReact,
 
 const About = () => {
   return (
-    <div id='about' className='p-8 flex flex-col lg:flex-row'>
+    <div
+    data-aos='fade-left'
+     data-aos-duration='1000'
+     data-aos-delay='300'
+    
+    id='about' className='p-8 flex flex-col lg:flex-row'>
       <div className="about-text w-full lg-w-1/2 space-y-5 p-4">
         <h2 className='text-4xl font-bold w-full' >Hello, I&apos;m Adewale Shittu</h2>
         <p className='leading-8 whitespace-normal text-left' >

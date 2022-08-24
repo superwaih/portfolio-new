@@ -4,7 +4,11 @@ import {BsGithub, BsTwitter,BsLinkedin,BsWhatsapp} from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <footer className="p-12 flex flex-col space-y-6 " id="contact">
+    <footer
+    data-aos='fade-up'
+     data-aos-duration='1000'
+     data-aos-delay='300'
+    className="p-12 flex flex-col space-y-6 " id="contact">
     <h2 className="text-4xl">CONNECT WITH ME</h2>
     <div className="contact__socials">
         <button className='p-2' ><a href="https://github.com/superwaih"><BsGithub className='hover-bg-cyan-300' size={20}/></a></button>

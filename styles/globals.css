@@ -23,6 +23,11 @@ body{
   cursor: pointer;
   z-index: 1000;
 }
+.loader{
+  background-image: url("/images/daniel.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+}
 .App{
   position: relative;
 }
