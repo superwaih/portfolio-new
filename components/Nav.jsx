@@ -14,9 +14,10 @@ export default function Nav({theme, setTheme, burger, setBurger}) {
      data-aos='fade-down'
      data-aos-duration='1000'
      data-aos-delay='300'
-     className='shadow relative text-xl flex justify-between p-8'>
+     className='shadow relative text-xl   p-8'>
 
-    <div className="logo w-1/4">
+   <div className="m-auto w-[90%] flex justify-between">
+   <div className="logo w-1/4 font-bold">
         <a>Adewale Shittu</a>
     </div>
   
@@ -35,12 +36,13 @@ export default function Nav({theme, setTheme, burger, setBurger}) {
        {theme === 'dark' ? <BsFillSunFill className='hover:animate-spin' /> :
         <BsMoonFill className='hover:animate-spin' /> }</button>
     </div>
-    <div onClick={() => handleClick()} className="burger-menu z-50 lg:hidden">
-       {burger ? <AiOutlineClose   /> 
-       : <AiOutlineMenu  />}
+    {/* <div onClick={() => setBurger(!burger)} className="burger-menu lg:hidden">
+       {burger ? <AiOutlineClose className='text-4xl text-red-500 z-50'   /> 
+       : <AiOutlineMenu className='text-4xl' />}
 
         
-    </div>
+    </div> */}
+   </div>
 
     
 </nav>

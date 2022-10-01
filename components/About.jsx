@@ -25,38 +25,64 @@ const About = () => {
         </button>
       </div>
 
-      <div className='tech-stacks flex flex-col items-center justify-center w-full'>
+      <div className='tech-stacks flex flex-col items-center p-4 justify-center w-full'>
         <h3 className='py-4 my-4 px-2 font-bold text-2xl text-center' >Technologies I&apos;ve worked with and work with...</h3>
         <div className="flex  flex-col space-y-6 ">
-          <div className='flex gap-8 space-x-20'>
-            <SiCss3 className="border text-6xl border-orange-600 shadow-md cursor-pointer  p-2" />
-            <SiEthereum size={32} />
-            <SiGeocaching size={32} />
+          <div className='flex gap-8 md:space-x-20'>
+            <div className='p-4 dark:bg-black shadow-md rounded-md border'>
+              <SiCss3 className="text-6xl cursor-pointer  " />
+            </div>
+
+            <div className='p-4 dark:bg-black shadow-md rounded-md border'>
+              <SiEthereum className="text-6xl cursor-pointer  " />
+            </div>
+            <div className='p-4 dark:bg-black shadow-md rounded-md border'>
+              <SiGeocaching className="text-6xl cursor-pointer  " />
+            </div>
           </div>
-          <div className='flex gap-8 space-x-20'>
-            <SiGit size={32} />
-            <SiJavascript size={32} />
-            <SiNextdotjs size={32} />
+          <div className='flex gap-8 md:space-x-20'>
+            <div className='p-4 dark:bg-black shadow-md rounded-md border'>
+              <SiGit className="text-6xl cursor-pointer  " />
+            </div>
+            <div className='p-4 dark:bg-black shadow-md rounded-md border'>
+              <SiJavascript className="text-6xl cursor-pointer  " />
+            </div>
+            <div className='p-4 dark:bg-black shadow-md rounded-md border'>
+              <SiNextdotjs className="text-6xl cursor-pointer  " />
+            </div>
+
           </div>
-          <div className='flex gap-8 space-x-20'>
-            <SiLeaflet size={32} />
-            <SiReact className='animate-spin hover:mix-blend-overlay' size={32} />
-            <SiPython size={32} />
+          <div className='flex gap-8 md:space-x-20'>
+            <div className='p-4 dark:bg-black shadow-md rounded-md border'>
+              <SiLeaflet className="text-6xl cursor-pointer  " />
+            </div>
+            <div className='p-4 dark:bg-black shadow-md rounded-md border'>
+              <SiPython className="text-6xl cursor-pointer  " />
+            </div>
+            <div className='p-4 dark:bg-black shadow-md rounded-md border'>
+              <SiReact className="text-6xl cursor-pointer animate-spin " />
+            </div>
           </div>
 
-          <div className='flex gap-8 space-x-20' >
-          <SiSolidity size={32} />
-          <SiTailwindcss size={32} />
+          <div className='flex gap-8 md:space-x-20' >
+            <div className='p-4 dark:bg-black shadow-md rounded-md border'>
+              <SiSolidity className="text-6xl cursor-pointer  " />
+            </div>
+            <div className='p-4 dark:bg-black shadow-md rounded-md border'>
+              <SiTailwindcss className="text-6xl cursor-pointer  " />
+            </div>
+            <div className='p-4 dark:bg-black shadow-md rounded-md border'>
+              <SiHtml5 className="text-6xl cursor-pointer  " />
+            </div>
 
-          <SiHtml5 size={32} />
 
 
+
+          </div>
 
         </div>
 
-        </div>
 
-      
       </div>
     </div>
   )

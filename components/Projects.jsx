@@ -45,7 +45,7 @@ const Projects = () => {
           <button
           onClick={() => setPageData(!pageData)}
 
-           className='hover:bg-white hover:text-red-800 flex  bg-cyan-300 text-amber-900 font-semibold hover:scale-105 rounded-md transform text-xl outline-dotted px-20 py-4'>
+           className='hover:bg-white hover:text-red-800 flex  bg-cyan-300 text-amber-900 font-semibold hover:scale-105 rounded-md transform text-xl outline-dotted px-4 md:px-20 py-4'>
             {pageData ? 
             <span className='flex items-center gap-5'>See Less Projects <BsArrowBarUp /> </span> : 
             <span className='flex items-center gap-5'>See More Projects <BsArrowDown /> </span>

@@ -20,7 +20,7 @@ export const projectsAll = [
 {
     id: 3,
     name: 'Code Editor',
-    project_summary: 'An online tips calculator to calculate tips based on percentage and number of people',
+    project_summary: ' A code editor that compiles and runs your code on the web.',
     project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1664608090/code-editor_djlv6n.jpg',
     stacks_used: ['HTML5', 'CSS3', 'Vercel', 'Javascript'],
     repo_url: 'https://github.com/superwaih/code-editor',
