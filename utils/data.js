@@ -90,6 +90,7 @@ export const WorkExperienceData = [
     id: 1,
     job_title: "Frontend Developer",
     location: "Remote",
+    website: "spatialnode.net",
     tasks: "Responsible for development of Responsive UIs and pages using NextJs",
     date:"5/01/2022 - Present",
     company_name: "Spatialnode Inc",
@@ -99,6 +100,7 @@ export const WorkExperienceData = [
     id: 2,
     job_title: "Blockchain Developer Intern",
     location: "Remote",
+    website: "web3bridge",
     tasks: "Built a lot of smart contracts using Solidity and built DAPPS after learning the fundamentals of Blockchain development.",
 
     date: "10/12/2021 - 25/04/2022",
@@ -109,6 +111,7 @@ export const WorkExperienceData = [
     id: 2,
     job_title: "Geospatial Analyst Intern",
     location: "Abeokuta, Nigeria",
+    website: "omooye.com",
     tasks: "Responsible for the management and visualization of the Web geospatial database and carrying out various geospatial analysis as required by the department",
     date: "27/04/2021 - 12/10/2021",
     company_name: "Omooye IDSL",
