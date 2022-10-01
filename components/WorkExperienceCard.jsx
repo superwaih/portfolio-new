@@ -4,7 +4,7 @@ const WorkExperienceCard = ({work}) => {
   return (
     <div className='border rounded-lg p-4 space-y-2 bg-black text-white'>
         <div className="company-logo flex items-center gap-4">
-            <img className='h-20 w-32' src={work.company_logo} alt="" srcset="" />
+            <img className='h-20 w-32' src={work.company_logo} alt="Company logo" />
         <p className="text-3xl font-bold">{work.company_name}</p>
 
         </div>
