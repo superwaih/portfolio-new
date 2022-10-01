@@ -14,8 +14,8 @@ export default function Nav({theme, setTheme, burger, setBurger}) {
      data-aos='fade-down'
      data-aos-duration='1000'
      data-aos-delay='300'
-     className='shadow relative text-xl flex m-auto justify-between p-6'>
-    
+     className='shadow relative text-xl flex justify-between p-8'>
+
     <div className="logo w-1/4">
         <a>Adewale Shittu</a>
     </div>

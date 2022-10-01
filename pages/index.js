@@ -67,7 +67,7 @@ export default function Home() {
           <ScrollToTop theme={theme} />
           <Nav burger={burger} setBurger={setBurger} theme={theme} setTheme={setTheme} />
           <SideNav burger={burger} setBurger={setBurger} />
-          <div className='w-[96%] m-auto' >
+          <div className='py-8 w-[90%] m-auto px-6  ' >
             <About />
             <Projects />
             <WorkExperience />

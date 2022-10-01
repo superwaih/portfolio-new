@@ -5,12 +5,12 @@ import Image from 'next/image'
 const ProjectCard = ({project_image, projectname, projectsummary, stacks_used, live_url, repo_url}) => {
   return (
     
-    <div className="project-card justify-center  card items-center h-[39rem] lg:h-[35rem] w-full md:w-96    rounded transform hover:scale-105 duration-500 shadow dark:bg-DarkModeElement">
+    <div className="project-card justify-center  card items-center h-[39rem] lg:h-[35rem] w-full md:w-[400px]    rounded transform hover:scale-105 duration-500 shadow dark:bg-DarkModeElement">
     <div className="card-img card-img object-contain  w-full  h-2/5">
      
       <img className='rounded-t-md w-full h-full object-cover' src={project_image} alt="project image" />
     </div>
-    <div className="project-details p-3 md:p-8 space-y-4 ">
+    <div className="project-details p-5 md:p-8 space-y-4 ">
       <h4 className='font-bold' >{projectname}</h4>
       <p className='project-summary leading-6'>
         {projectsummary} 
