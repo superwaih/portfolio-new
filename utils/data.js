@@ -84,3 +84,36 @@ export const projectsAll = [
 
 
 ]
+
+export const WorkExperienceData = [
+    {
+    id: 1,
+    job_title: "Frontend Developer",
+    location: "Remote",
+    tasks: "Responsible for development of Responsive UIs and pages using NextJs",
+    date:"5/01/2022 - Present",
+    company_name: "Spatialnode Inc",
+    company_logo: "https://res.cloudinary.com/waleszn/image/upload/v1664618669/logo-removebg-preview_zziz3s.png"
+},
+{
+    id: 2,
+    job_title: "Blockchain Developer Intern",
+    location: "Remote",
+    tasks: "Built a lot of smart contracts using Solidity and built DAPPS after learning the fundamentals of Blockchain development.",
+
+    date: "10/12/2021 - 25/04/2022",
+    company_name: "Web3Bridge",
+    company_logo: "https://res.cloudinary.com/waleszn/image/upload/v1664613222/web3bridge_xzgbwf.png"
+},
+{
+    id: 2,
+    job_title: "Geospatial Analyst Intern",
+    location: "Abeokuta, Nigeria",
+    tasks: "Responsible for the management and visualization of the Web geospatial database and carrying out various geospatial analysis as required by the department",
+    date: "27/04/2021 - 12/10/2021",
+    company_name: "Omooye IDSL",
+    company_logo: "https://res.cloudinary.com/waleszn/image/upload/v1664613323/omooye_vmsmai.png"
+},
+
+
+]
