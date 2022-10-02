@@ -5,7 +5,7 @@ const WorkExperienceCard = ({work}) => {
     <div className='border rounded-lg p-4 space-y-2 bg-black text-white'>
         <div className="company-logo flex items-center gap-4">
             <img className='h-20 w-32' src={work.company_logo} alt="Company logo" />
-        <p className="text-3xl font-bold">{work.company_name}</p>
+        <p className="lg:text-3xl text-xl font-bold">{work.company_name}</p>
 
         </div>
         <p className='text-amber-600 font-bold text-xl'>{work.job_title}</p>
