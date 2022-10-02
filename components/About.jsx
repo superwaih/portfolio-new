@@ -21,7 +21,7 @@ const About = () => {
         </p>
 
         <button className='rounded shadow hover:bg-white hover:text-red-800  bg-cyan-300 text-amber-900 p-4 font-semibold' >
-          <a href="https://drive.google.com/file/d/1WLhnDivt2eGnhERRYtjJtqJ1n8vEs_2s/view?usp=sharing">Download</a>
+          <a href="https://drive.google.com/file/d/1WLhnDivt2eGnhERRYtjJtqJ1n8vEs_2s/view?usp=sharing">Download Resume</a>
         </button>
       </div>
 
