@@ -41,7 +41,7 @@ const Projects = () => {
       </div>
 
       {/* <a href="https://github.com/superwaih"> */}
-        <div className='flex items-center py-8 justify-center '>
+        <div className='flex items-center py-8 justify-center'>
           <button
           onClick={() => setPageData(!pageData)}
 

@@ -1,6 +1,15 @@
 export const projectsAll = [
     {
         id: 1,
+        name: 'Dictionary App',
+        project_summary: 'A dictionary App for getting the meaning of all english words and generates a random word on every refresh',
+        project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1665486145/Dictionary_App_w37cst.png',
+        stacks_used: ['NextJS', 'Tailwind', "ContextAPI"],
+        repo_url: 'https://github.com/superwaih/dictionary-app',
+        live_url: 'https://dictionary-ap.vercel.app/'
+    },
+    {
+        id: 81,
         name: 'Shopping Cart',
         project_summary: 'A mini shopping cart with useReducer Hook with free products API',
         project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1664563041/63373663ec0ce237384d4bb4_hxsm4j.jpg',
@@ -8,8 +17,17 @@ export const projectsAll = [
         repo_url: 'https://github.com/superwaih/shopping-cart',
         live_url: 'https://shoppingup-cart.vercel.app/'
     },
+    {
+        id: 3,
+        name: 'Code Editor',
+        project_summary: ' A code editor that compiles and runs your code on the web. supports up to 40+ programming languages',
+        project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1664608090/code-editor_djlv6n.jpg',
+        stacks_used: ['HTML5', 'CSS3', 'Vercel', 'Javascript'],
+        repo_url: 'https://github.com/superwaih/code-editor',
+        live_url: 'https://codeup-editor.vercel.app/'
+    },
 {
-    id: 2,
+    id: 266,
     name: 'Travel Agency Website',
     project_summary: 'A website for a travel business where tourists can look at photographs of different places they can visit. ',
     project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1651163293/travel-website_l9oonr.png',
@@ -17,15 +35,7 @@ export const projectsAll = [
     repo_url: 'https://github.com/superwaih/Travel-website',
     live_url: 'https://nervous-mahavira-6051f4.netlify.app/'
 },
-{
-    id: 3,
-    name: 'Code Editor',
-    project_summary: ' A code editor that compiles and runs your code on the web.',
-    project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1664608090/code-editor_djlv6n.jpg',
-    stacks_used: ['HTML5', 'CSS3', 'Vercel', 'Javascript'],
-    repo_url: 'https://github.com/superwaih/code-editor',
-    live_url: 'https://codeup-editor.vercel.app/'
-},
+
 {
     id: 4,
     name: 'NFT20',
@@ -100,7 +110,7 @@ export const WorkExperienceData = [
     id: 2,
     job_title: "Blockchain Developer Intern",
     location: "Remote",
-    website: "web3bridge",
+    website: "web3bridge.com",
     tasks: "Built a lot of smart contracts using Solidity and built DAPPS after learning the fundamentals of Blockchain development.",
 
     date: "10/12/2021 - 25/04/2022",
@@ -108,7 +118,7 @@ export const WorkExperienceData = [
     company_logo: "https://res.cloudinary.com/waleszn/image/upload/v1664613222/web3bridge_xzgbwf.png"
 },
 {
-    id: 2,
+    id: 2666,
     job_title: "Geospatial Analyst Intern",
     location: "Abeokuta, Nigeria",
     website: "omooye.com",
