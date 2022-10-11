@@ -6,7 +6,7 @@ const WorkExperienceCard = ({work}) => {
        <a href={work.website}>
        <div className="company-logo flex items-center gap-4">
             <img className='h-20 w-32' src={work.company_logo} alt="Company logo" />
-             <p className="text-2xl font-bold">{work.company_name}</p>
+        <p className="lg:text-3xl text-xl font-bold">{work.company_name}</p>
 
         </div>
        </a>

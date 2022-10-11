@@ -10,7 +10,7 @@ const ProjectCard = ({project_image, projectname, projectsummary, stacks_used, l
      
       <img className='rounded-t-md w-full h-full object-cover' src={project_image} alt="project image" />
     </div>
-    <div className="project-details p-5 md:p-8 space-y-4 ">
+    <div className="project-details p-5 md:p-10 space-y-4 ">
       <h4 className='font-bold' >{projectname}</h4>
       <p className='project-summary leading-6'>
         {projectsummary} 
@@ -18,7 +18,7 @@ const ProjectCard = ({project_image, projectname, projectsummary, stacks_used, l
       <div className="stack grid grid-cols-2 gap-4 font-[12px]  justify-between">
           {stacks_used.map((stack, i) =>{
               return(
-                <span key={i} className='bg-[#ccc] text-[#282c34]  rounded p-2'>{stack}</span>
+                <span key={i} className='bg-[#ccc] text-[#282c34]  rounded p-3'>{stack}</span>
               )
           })}
       </div>

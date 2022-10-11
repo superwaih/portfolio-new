@@ -35,16 +35,25 @@ export const projectsAll = [
     repo_url: 'https://github.com/superwaih/Travel-website',
     live_url: 'https://nervous-mahavira-6051f4.netlify.app/'
 },
-
 {
-    id: 4,
-    name: 'NFT20',
-    project_summary: 'An online NFT Marketplace where users can buy and sell NFTs instantly',
-    project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1651163051/nft_20_image_ucpszg.png',
-    stacks_used: ['ReactJS', 'Vercel', 'Tailwind', 'Ethers.js'],
-    repo_url: 'https://github.com/superwaih/nft2',
-    live_url: 'https://nft20.netlify.app'
+    id: 3,
+    name: 'Code Editor',
+    project_summary: ' A code editor that compiles and runs your code on the web.',
+    project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1664608090/code-editor_djlv6n.jpg',
+    stacks_used: ['HTML5', 'CSS3', 'Vercel', 'Javascript'],
+    repo_url: 'https://github.com/superwaih/code-editor',
+    live_url: 'https://codeup-editor.vercel.app/'
 },
+    {
+    id: 8,
+    name: 'space tourism website',
+    project_summary: 'A frontendMentor challenge for information about space tourism.',
+    project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1651163723/space_ct11rn.png',
+    stacks_used: ['HTML5', 'CSS3', 'Vercel', 'Javascript'],
+    repo_url: 'https://github.com/superwaih/space-tourism-website-main',
+    live_url: 'https://space-tourism-website-main-ten.vercel.app/index.html'
+},
+
 {
     id: 5,
     name: 'Whitelist Dapp',
@@ -72,15 +81,16 @@ export const projectsAll = [
     repo_url: 'https://github.com/superwaih/rest-countries-api',
     live_url: ''
 },
-{
-    id: 8,
-    name: 'space tourism website',
-    project_summary: 'A frontendMentor challenge for information about space tourism.',
-    project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1651163723/space_ct11rn.png',
-    stacks_used: ['HTML5', 'CSS3', 'Vercel', 'Javascript'],
-    repo_url: 'https://github.com/superwaih/space-tourism-website-main',
-    live_url: 'https://space-tourism-website-main-ten.vercel.app/index.html'
+    {
+    id: 4,
+    name: 'NFT20',
+    project_summary: 'An online NFT Marketplace where users can buy and sell NFTs instantly',
+    project_image: 'https://res.cloudinary.com/waleszn/image/upload/v1651163051/nft_20_image_ucpszg.png',
+    stacks_used: ['ReactJS', 'Vercel', 'Tailwind', 'Ethers.js'],
+    repo_url: 'https://github.com/superwaih/nft2',
+    live_url: 'https://nft20.netlify.app'
 },
+
 {
     id: 9,
     name: 'SNS Name Service',
