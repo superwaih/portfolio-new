@@ -14,7 +14,7 @@ export default function Nav({theme, setTheme, burger, setBurger}) {
      data-aos='fade-down'
      data-aos-duration='1000'
      data-aos-delay='300'
-     className='shadow relative text-xl   p-8'>
+     className='shadow text-xl fixed top-0 left-0 right-0   p-8'>
 
    <div className="m-auto w-[90%] flex justify-between">
    <div className="logo w-1/4 font-bold">
