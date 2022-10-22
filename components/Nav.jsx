@@ -14,18 +14,18 @@ export default function Nav({theme, setTheme, burger, setBurger}) {
      data-aos='fade-down'
      data-aos-duration='1000'
      data-aos-delay='300'
-     className='shadow text-xl bg-white dark:bg-[#282c34]   fixed top-0 left-0 right-0 z-10 h-[100px]   p-8'>
+     className='shadow text-xl bg-white dark:bg-[#282c34] mb-12 opacity-80  fixed top-0 left-0 right-0 z-10 h-[100px]   p-8'>
 
-   <div className="m-auto w-[90%] flex justify-between">
+   <div className="m-auto w-[90%] flex justify-between items-center">
    <div className="logo w-1/4 font-bold">
         <a>Adewale Shittu</a>
     </div>
   
-    <div className="navlinks w-2/4 md:flex hidden lg:block">
+    <div className="navlinks md:w-2/5 lg:w-2/4 md:flex hidden lg:block">
         <a className='p-4' href='#about' > About</a>
         <a href='#projects' className='p-4'>Project</a>
         <a href='#work-experience' className='p-4'>Experience</a>        
-        <a href='#contact' className='p-4'>Contacts</a>
+        <a href='#contact' className='hidden lg:inline-block p-4'>Contacts</a>
         
     </div>
 

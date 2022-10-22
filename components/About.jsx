@@ -12,7 +12,7 @@ const About = () => {
       data-aos-duration='1000'
       data-aos-delay='300'
 
-      id='about' className='flex flex-col justify-evenly items-center lg:flex-row w-full'>
+      id='about' className='flex flex-col mt-4 pt-20 justify-evenly items-center lg:flex-row w-full'>
       <div className="about-text w-full  space-y-5 p-4">
         <h2 className='text-4xl font-bold w-full' >Hello, I&apos;m Adewale Shittu</h2>
         <p className='leading-8 whitespace-normal text-left' >
