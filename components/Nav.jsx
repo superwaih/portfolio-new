@@ -16,7 +16,7 @@ export default function Nav({theme, setTheme, burger, setBurger}) {
      data-aos-delay='300'
      className='shadow text-xl bg-white dark:bg-[#282c34] mb-12 opacity-80  fixed top-0 left-0 right-0 z-10 h-[100px]   p-8'>
 
-   <div className="m-auto w-[90%] flex justify-between items-center">
+   <div className="m-auto w-[90%] z-50 flex justify-between items-center">
    <div className="logo w-1/4 font-bold">
         <a>Adewale Shittu</a>
     </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import {GoLinkExternal} from "react-icons/go"
 
 
 const ProjectCard = ({project_image, projectname, projectsummary, stacks_used, live_url, repo_url}) => {
@@ -18,13 +19,13 @@ const ProjectCard = ({project_image, projectname, projectsummary, stacks_used, l
       <div className="stack grid grid-cols-2 gap-4 font-[12px]  justify-between">
           {stacks_used.map((stack, i) =>{
               return(
-                <span key={i} className='bg-[#ccc] text-[#282c34]  rounded p-3'>{stack}</span>
+                <span key={i} className='bg-[#ccc] text-[#282c34]  rounded p-2'>{stack}</span>
               )
           })}
       </div>
       <div className="button flex font-bold justify-between">
-        <a href={live_url}>Live Site</a>
-        <a href={repo_url}>Source code </a>
+        <a target="_blank" className='flex gap-4 items-center border p-2' href={live_url}>Live Site <GoLinkExternal /></a>
+        <a target="_blank" className='border p-2 flex gap-4 items-center' href={repo_url}>Source code  <GoLinkExternal /></a>
       </div>
     </div>
   </div>
