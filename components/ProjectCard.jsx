@@ -24,8 +24,8 @@ const ProjectCard = ({project_image, projectname, projectsummary, stacks_used, l
           })}
       </div>
       <div className="button flex font-bold justify-between">
-        <a target="_blank" className='flex gap-4 items-center border p-2' href={live_url}>Live Site <GoLinkExternal /></a>
-        <a target="_blank" className='border p-2 flex gap-4 items-center' href={repo_url}>Source code  <GoLinkExternal /></a>
+        <a target="_blank" rel="noreferrer" className='flex gap-4 items-center border p-2' href={live_url}>Live Site <GoLinkExternal /></a>
+        <a target="_blank" rel="noreferrer" className='border p-2 flex gap-4 items-center' href={repo_url}>Source code  <GoLinkExternal /></a>
       </div>
     </div>
   </div>
