@@ -6,7 +6,7 @@ import {GoLinkExternal} from "react-icons/go"
 const ProjectCard = ({project_image, projectname, projectsummary, stacks_used, live_url, repo_url}) => {
   return (
     
-    <div className="project-card gap-4 min-h-[630px] bg-black text-white  card items-center flex flex-col w-full max-w-[380px]    rounded-[1.2rem] transform hover:scale-105 duration-500 shadow dark:bg-DarkModeElement">
+    <div className="project-card gap-4 min-h-[630px]  bg-black text-white  card items-center flex flex-col w-full max-w-[380px]    rounded-[1.2rem] transform hover:scale-105 duration-500 shadow dark:bg-DarkModeElement">
     <div className="card-img card-img object-contain  w-full h-full">
      
       <img className='rounded-t-md w-full h-[300px] object-cover' src={project_image} alt="project image" />
@@ -23,7 +23,7 @@ const ProjectCard = ({project_image, projectname, projectsummary, stacks_used, l
               )
           })}
       </div>
-      <div className="button flex font-bold gap-2 justify-between">
+      <div className="button flex font-bold py-3 gap-2 justify-between">
         <a target="_blank" rel="noreferrer" className='flex gap-4 items-center border p-2' href={live_url}>Live Site <GoLinkExternal /></a>
         <a target="_blank" rel="noreferrer" className='border p-2 flex gap-4 items-center' href={repo_url}>Source code  <GoLinkExternal /></a>
       </div>
