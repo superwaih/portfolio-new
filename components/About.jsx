@@ -28,7 +28,7 @@ const About = () => {
           Hello, I&apos;m Adewale Shittu
         </h2>
         <p className="leading-8 whitespace-normal text-left">
-          I&apos;m a frontend-developer with some experience in web3
+          I&apos;m a frontend-developer with experience in web3
           development. In solving problems, my strategy is to break difficulties
           down into manageable chunks and then continue the process until the
           problem is solved. When I&apos;m not slapping my keyboards till
